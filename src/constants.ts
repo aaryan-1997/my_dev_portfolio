@@ -19,7 +19,7 @@ export const PROJECTS: Project[] = [
     features: ['Server-side Logic', 'Product Management', 'Cart & Checkout Flow'],
     problemSolved: 'Built a scalable backend to handle high-traffic product requests and secure user data.',
     impact: 'Demonstrated full-stack capabilities by managing both mobile UI and server infrastructure.',
-    image: 'https://picsum.photos/seed/ecomly/800/600',
+    image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=800&auto=format&fit=crop',
     githubUrl: 'https://github.com/aaryan-1997/ecomly_server',
     demoUrl: '#'
   },
@@ -31,7 +31,7 @@ export const PROJECTS: Project[] = [
     features: ['Category Filtering', 'Search Functionality', 'Offline Caching'],
     problemSolved: 'Optimized API calls and implemented efficient state management for a smooth reading experience.',
     impact: 'Achieved high performance and low latency in data fetching.',
-    image: 'https://picsum.photos/seed/news/800/600',
+    image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=800&auto=format&fit=crop',
     githubUrl: 'https://github.com/aaryan-1997/flutter_news',
     demoUrl: '#'
   },
@@ -43,7 +43,7 @@ export const PROJECTS: Project[] = [
     features: ['Playlist Management', 'Background Playback', 'Dynamic UI Themes'],
     problemSolved: 'Handled complex audio states and background services to ensure uninterrupted playback.',
     impact: 'Highly rated for its intuitive UI and smooth transitions.',
-    image: 'https://picsum.photos/seed/music/800/600',
+    image: 'https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=800&auto=format&fit=crop',
     githubUrl: 'https://github.com/aaryan-1997/rythem_music',
     demoUrl: '#'
   },
@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
     features: ['Highly Customizable', 'Lightweight', 'Easy Integration'],
     problemSolved: 'Created a flexible solution for developers to build complex timelines without boilerplate code.',
     impact: 'Open-sourced on GitHub for the Flutter community to use and contribute.',
-    image: 'https://picsum.photos/seed/timeline/800/600',
+    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop',
     githubUrl: 'https://github.com/aaryan-1997/custom_timetile',
     demoUrl: '#'
   },
@@ -67,7 +67,7 @@ export const PROJECTS: Project[] = [
     features: ['Offline First', 'Real-time Sync', 'Push Notifications'],
     problemSolved: 'Solved the issue of data loss during poor connectivity by implementing a robust offline-first architecture.',
     impact: 'Improved user productivity by providing a reliable tool that works anywhere.',
-    image: 'https://picsum.photos/seed/taskmaster/800/600',
+    image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=800&auto=format&fit=crop',
     githubUrl: 'https://github.com/aaryan-1997/taskmaster_pro',
     demoUrl: '#'
   },
@@ -79,7 +79,7 @@ export const PROJECTS: Project[] = [
     features: ['AI Recommendations', 'Activity Tracking', 'Meal Planning'],
     problemSolved: 'Used machine learning to provide truly personalized fitness advice based on user activity data.',
     impact: 'Helped users achieve their fitness goals faster with data-driven insights.',
-    image: 'https://picsum.photos/seed/health/800/600',
+    image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop',
     githubUrl: 'https://github.com/aaryan-1997/healthtrack_ai',
     demoUrl: '#'
   },
@@ -91,8 +91,80 @@ export const PROJECTS: Project[] = [
     features: ['Real-time Chat', 'Post Sharing', 'User Profiles'],
     problemSolved: 'Built a scalable real-time messaging system using Firestore snapshots and optimized image uploads.',
     impact: 'Created an engaging platform for users to connect and share experiences.',
-    image: 'https://picsum.photos/seed/social/800/600',
+    image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=800&auto=format&fit=crop',
     githubUrl: 'https://github.com/aaryan-1997/social_connect',
+    demoUrl: '#'
+  },
+  {
+    id: '8',
+    title: 'Vehicle Tracking System',
+    description: 'A real-time vehicle tracking application providing live location updates, route history, and geofencing alerts.',
+    techStack: ['Flutter', 'Google Maps API', 'WebSockets', 'Firebase'],
+    features: ['Live Location Tracking', 'Geofencing', 'Route History'],
+    problemSolved: 'Enabled fleet managers to monitor vehicles in real-time, improving operational efficiency and security.',
+    impact: 'Reduced unauthorized vehicle usage and improved delivery times.',
+    image: 'https://images.unsplash.com/photo-1515569067071-ec3b51335dd0?q=80&w=800&auto=format&fit=crop',
+    githubUrl: 'https://github.com/aaryan-1997',
+    demoUrl: '#'
+  },
+  {
+    id: '9',
+    title: 'Parking Booking App',
+    description: 'A smart parking solution allowing users to find, reserve, and pay for parking spots in advance.',
+    techStack: ['Flutter', 'Node.js', 'Stripe', 'MongoDB'],
+    features: ['Spot Reservation', 'Digital Payments', 'Navigation to Spot'],
+    problemSolved: 'Alleviated urban parking congestion by providing a seamless booking experience.',
+    impact: 'Saved users an average of 15 minutes per parking search.',
+    image: 'https://images.unsplash.com/photo-1506521781263-d8422e82f27a?q=80&w=800&auto=format&fit=crop',
+    githubUrl: 'https://github.com/aaryan-1997',
+    demoUrl: '#'
+  },
+  {
+    id: '10',
+    title: 'Route Sale Management',
+    description: 'A comprehensive app for field sales teams to manage daily routes, orders, and customer interactions.',
+    techStack: ['Flutter', 'REST API', 'SQLite', 'Provider'],
+    features: ['Route Optimization', 'Order Management', 'Offline Support'],
+    problemSolved: 'Streamlined the sales process for field agents working in areas with poor network connectivity.',
+    impact: 'Increased daily sales visits by 20% through optimized routing.',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop',
+    githubUrl: 'https://github.com/aaryan-1997',
+    demoUrl: '#'
+  },
+  {
+    id: '11',
+    title: 'BLE / IoT Controller',
+    description: 'An IoT application that connects to and controls Bluetooth Low Energy (BLE) devices.',
+    techStack: ['Flutter', 'Flutter Blue', 'IoT', 'Dart'],
+    features: ['Device Discovery', 'Real-time Data Sync', 'Remote Control'],
+    problemSolved: 'Created a unified interface for managing multiple smart devices seamlessly.',
+    impact: 'Enhanced user experience for smart home and industrial IoT users.',
+    image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=800&auto=format&fit=crop',
+    githubUrl: 'https://github.com/aaryan-1997',
+    demoUrl: '#'
+  },
+  {
+    id: '12',
+    title: 'Expense Tracker Pro',
+    description: 'A personal finance application to track daily expenses, categorize spending, and generate visual reports.',
+    techStack: ['Flutter', 'Hive', 'Charts', 'GetX'],
+    features: ['Expense Categorization', 'Visual Analytics', 'Budget Alerts'],
+    problemSolved: 'Helped users gain better control over their finances with intuitive data visualization.',
+    impact: 'Empowered thousands of users to save money through better budget tracking.',
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=800&auto=format&fit=crop',
+    githubUrl: 'https://github.com/aaryan-1997',
+    demoUrl: '#'
+  },
+  {
+    id: '13',
+    title: 'E-book Application',
+    description: 'A comprehensive e-book reading application with a vast library, offline reading capabilities, and customizable reading preferences.',
+    techStack: ['Flutter', 'Dart', 'Provider', 'REST API'],
+    features: ['Offline Reading', 'Customizable Themes', 'Bookmarking'],
+    problemSolved: 'Provided a seamless and accessible reading experience for users on the go.',
+    impact: 'Enhanced user engagement and reading habits through an intuitive interface.',
+    image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop',
+    githubUrl: 'https://github.com/aaryan-1997/e-book-applicatiom',
     demoUrl: '#'
   }
 ];
