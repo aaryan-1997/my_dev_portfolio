@@ -16,7 +16,14 @@ import {
   Navigation,
   Layout,
   Box,
-  GitBranch
+  GitBranch,
+  UploadCloud,
+  Terminal,
+  HardDrive,
+  Activity,
+  Bell,
+  CheckSquare,
+  Cpu
 } from 'lucide-react';
 import { Skill } from '../types';
 
@@ -36,7 +43,14 @@ const iconMap: Record<string, any> = {
   Navigation,
   Layout,
   Box,
-  GitBranch
+  GitBranch,
+  UploadCloud,
+  Terminal,
+  HardDrive,
+  Activity,
+  Bell,
+  CheckSquare,
+  Cpu
 };
 
 interface SkillCardProps {

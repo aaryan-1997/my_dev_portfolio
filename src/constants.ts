@@ -180,7 +180,15 @@ export const SKILLS: Skill[] = [
   { name: 'Responsive UI Design', icon: 'Layout', category: 'Frontend' },
   { name: 'Custom Animations', icon: 'Zap', category: 'Frontend' },
   { name: 'Package Development', icon: 'Box', category: 'Tools' },
-  { name: 'Git & Version Control', icon: 'GitBranch', category: 'Tools' }
+  { name: 'Git & Version Control', icon: 'GitBranch', category: 'Tools' },
+  { name: 'App Store & Play Store Deployment', icon: 'UploadCloud', category: 'Tools' },
+  { name: 'CI/CD (Fastlane, GitHub Actions)', icon: 'Terminal', category: 'Tools' },
+  { name: 'Local Storage (SQLite, Hive)', icon: 'HardDrive', category: 'Backend' },
+  { name: 'Clean Architecture & MVVM', icon: 'Activity', category: 'Architecture' },
+  { name: 'Push Notifications (FCM, APNs)', icon: 'Bell', category: 'Backend' },
+  { name: 'Unit & Widget Testing', icon: 'CheckSquare', category: 'QA' },
+  { name: 'Native Integration (Method Channels)', icon: 'Cpu', category: 'Frontend' },
+  { name: 'UI/UX Prototyping (Figma)', icon: 'Figma', category: 'Design' }
 ];
 
 export const EXPERIENCES: Experience[] = [
